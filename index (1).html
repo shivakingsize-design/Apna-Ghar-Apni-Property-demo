@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Apna Ghar Apni Property | Residential Properties in North Kolkata</title>
+<meta name="description" content="Explore residential property options in Sodepur, Khardaha and Agarpara with Apna Ghar Apni Property. Contact our team for buying, selling and property assistance.">
+<meta property="og:title" content="Apna Ghar Apni Property | Residential Properties in North Kolkata">
+<meta property="og:description" content="Residential property assistance in Sodepur, Khardaha and Agarpara.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%23123D32'/><text x='50' y='64' font-size='46' text-anchor='middle' fill='%23D7B979' font-family='serif'>AG</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --green:#123D32; --green-2:#1B4A3C; --gold:#D7B979; --ivory:#F5F0E6;
+  --charcoal:#242923; --muted:#EAE5D9; --line:rgba(18,61,50,.14);
+  --serif:'Cormorant Garamond',Georgia,'Times New Roman',serif;
+  --sans:'Manrope',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:90px;-webkit-text-size-adjust:100%}
+body{font-family:var(--sans);background:var(--ivory);color:var(--charcoal);line-height:1.6;overflow-x:hidden}
+img,svg{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button,input,select,textarea{font:inherit}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.wrap{width:min(1200px,92%);margin-inline:auto}
+section{padding:clamp(72px,10vw,120px) 0;position:relative}
+.eyebrow{font-size:.75rem;letter-spacing:.22em;text-transform:uppercase;color:var(--green-2);font-weight:600;display:inline-flex;align-items:center;gap:.75rem}
+.eyebrow::before{content:"";width:28px;height:1px;background:var(--gold)}
+h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.1;color:var(--green)}
+h2{font-size:clamp(2.2rem,4.6vw,3.4rem);margin:.6rem 0 1rem}
+.lead{color:#4a524a;max-width:620px;font-size:1.02rem}
+.rule{width:64px;height:1px;background:var(--gold);margin:1.2rem 0}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;padding:.9rem 1.5rem;border-radius:2px;font-weight:600;font-size:.9rem;letter-spacing:.03em;border:1px solid transparent;cursor:pointer;transition:background .3s,color .3s,border-color .3s;min-height:48px;text-align:center}
+.btn-gold{background:var(--gold);color:var(--green)}
+.btn-gold:hover{background:#e3c98c}
+.btn-line{border-color:rgba(255,255,255,.7);color:#fff;background:transparent}
+.btn-line:hover{background:#fff;color:var(--green)}
+.btn-green{background:var(--green);color:#fff}
+.btn-green:hover{background:var(--green-2)}
+.btn-ghost{border-color:var(--green);color:var(--green);background:transparent}
+.btn-ghost:hover{background:var(--green);color:#fff}
+
+/* Header */
+header{position:fixed;inset:0 0 auto 0;z-index:50;transition:background .4s,box-shadow .4s,padding .4s;padding:22px 0;padding-top:calc(22px + env(safe-area-inset-top,0px));color:#fff}
+header.solid{background:var(--ivory);color:var(--charcoal);box-shadow:0 1px 0 var(--line);padding:14px 0;padding-top:calc(14px + env(safe-area-inset-top,0px))}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{display:flex;align-items:center;gap:12px}
+.mono{width:40px;height:40px;border:1px solid currentColor;display:grid;place-items:center;font-family:var(--serif);font-weight:700;font-size:1.05rem;letter-spacing:.04em;color:var(--gold)}
+header.solid .mono{color:var(--green)}
+.brand-text{line-height:1.05;font-family:var(--serif);font-weight:600;font-size:1.05rem;letter-spacing:.14em}
+.brand-text small{display:block;font-size:.66rem;letter-spacing:.3em;font-family:var(--sans);font-weight:600;opacity:.85}
+.menu{display:flex;gap:30px;list-style:none;align-items:center}
+.menu a{font-size:.88rem;font-weight:500;position:relative;padding:4px 0}
+.menu a::after{content:"";position:absolute;left:0;bottom:-2px;width:0;height:1px;background:var(--gold);transition:width .3s}
+.menu a:hover::after{width:100%}
+.nav-cta{display:flex;align-items:center;gap:12px}
+.burger{display:none;background:none;border:0;width:44px;height:44px;cursor:pointer;color:inherit;position:relative}
+.burger span{position:absolute;left:10px;right:10px;height:1.5px;background:currentColor;transition:transform .3s,opacity .3s}
+.burger span:nth-child(1){top:16px}.burger span:nth-child(2){top:22px}.burger span:nth-child(3){top:28px}
+.burger[aria-expanded="true"] span:nth-child(1){transform:translateY(6px) rotate(45deg)}
+.burger[aria-expanded="true"] span:nth-child(2){opacity:0}
+.burger[aria-expanded="true"] span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
+.mobile-menu{position:fixed;inset:0;background:var(--green);color:#fff;z-index:40;display:flex;flex-direction:column;justify-content:center;padding:40px;opacity:0;visibility:hidden;transition:opacity .35s,visibility .35s}
+.mobile-menu.open{opacity:1;visibility:visible}
+.mobile-menu a{font-family:var(--serif);font-size:2.2rem;padding:10px 0;border-bottom:1px solid rgba(215,185,121,.25)}
+
+/* Hero */
+.hero{min-height:100vh;min-height:100svh;display:flex;align-items:flex-end;color:#fff;padding:0;overflow:hidden;background:var(--green)}
+.hero-media{position:absolute;inset:-4%;z-index:0}
+.hero-media svg{width:100%;height:100%;object-fit:cover;transform:scale(1.02);animation:drift 22s ease-in-out infinite alternate}
+@keyframes drift{from{transform:scale(1.02) translateY(0)}to{transform:scale(1.08) translateY(-8px)}}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(18,61,50,.35) 0%,rgba(18,61,50,.55) 45%,rgba(18,61,50,.94) 100%);z-index:1}
+.hero-inner{position:relative;z-index:2;padding-bottom:clamp(64px,10vh,110px);padding-top:160px;width:min(1200px,92%);margin-inline:auto}
+.hero .tag{font-size:.74rem;letter-spacing:.32em;color:var(--gold);font-weight:700;margin-bottom:1.4rem}
+.hero h1{color:#fff;font-size:clamp(2.9rem,7.2vw,5.6rem);max-width:14ch;font-weight:600}
+.hero p.sub{margin-top:1.4rem;max-width:520px;font-size:1.05rem;color:rgba(255,255,255,.88)}
+.hero-ctas{display:flex;flex-wrap:wrap;gap:14px;margin-top:2.2rem}
+.hero-note{position:absolute;right:4%;bottom:28px;z-index:2;font-size:.68rem;letter-spacing:.14em;color:rgba(255,255,255,.6);text-transform:uppercase;display:none}
+.illus-label{position:absolute;left:50%;bottom:110px;transform:translateX(-50%);z-index:2;font-size:.68rem;letter-spacing:.12em;color:rgba(255,255,255,.7);text-transform:uppercase;white-space:nowrap}
+
+/* Search */
+.search{background:#fff;border:1px solid var(--line);padding:clamp(24px,4vw,40px);margin-top:-70px;position:relative;z-index:3;box-shadow:0 20px 40px -28px rgba(18,61,50,.35)}
+.filters{display:grid;grid-template-columns:repeat(4,1fr) auto;gap:16px;align-items:end}
+.field label{display:block;font-size:.72rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--green-2);margin-bottom:8px}
+.field select{width:100%;padding:13px 14px;border:1px solid var(--line);background:var(--ivory);color:var(--charcoal);border-radius:2px;appearance:none;background-image:linear-gradient(45deg,transparent 50%,var(--green) 50%),linear-gradient(135deg,var(--green) 50%,transparent 50%);background-position:calc(100% - 18px) 55%,calc(100% - 13px) 55%;background-size:5px 5px;background-repeat:no-repeat;cursor:pointer;min-height:48px}
+.search-head{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap;margin-bottom:40px}
+.count{font-size:.9rem;color:#5b635b}
+
+/* Listings */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:30px}
+.card{background:#fff;border:1px solid var(--line);display:flex;flex-direction:column;transition:border-color .3s,transform .4s}
+.card:hover{border-color:var(--gold);transform:translateY(-3px)}
+.card-media{aspect-ratio:4/3;overflow:hidden;position:relative;background:var(--muted)}
+.card-media svg{width:100%;height:100%}
+.badge{position:absolute;top:14px;left:14px;background:var(--ivory);color:var(--green);font-size:.66rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:6px 10px}
+.badge.gold{background:var(--gold)}
+.card-body{padding:24px;display:flex;flex-direction:column;gap:12px;flex:1}
+.card-type{font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--green-2);font-weight:700}
+.card h3{font-size:1.65rem}
+.loc{font-size:.9rem;color:#5b635b}
+.price{font-family:var(--serif);font-size:1.6rem;color:var(--green);font-weight:600}
+.price small{display:block;font-family:var(--sans);font-size:.78rem;color:#5b635b;font-weight:500}
+.specs{display:flex;flex-wrap:wrap;gap:8px}
+.specs span{font-size:.8rem;border:1px solid var(--line);padding:5px 10px;background:var(--ivory)}
+.note{font-size:.8rem;color:#6a4e10;background:#fbf5e6;border-left:2px solid var(--gold);padding:10px 12px}
+.card-actions{display:flex;gap:10px;margin-top:auto;padding-top:8px}
+.card-actions .btn{flex:1;padding:.75rem 1rem;font-size:.82rem;min-height:44px}
+.empty{grid-column:1/-1;text-align:center;padding:60px 20px;border:1px dashed var(--line);background:#fff}
+.empty h3{font-size:1.8rem;margin-bottom:.5rem}
+
+/* Localities */
+.localities{background:var(--muted)}
+.loc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:48px}
+.loc-card{background:var(--green);color:#fff;padding:0;overflow:hidden;display:flex;flex-direction:column}
+.loc-art{aspect-ratio:16/10;overflow:hidden}
+.loc-art svg{width:100%;height:100%}
+.loc-card .inner{padding:28px;display:flex;flex-direction:column;gap:12px;flex:1}
+.loc-card h3{color:#fff;font-size:2rem}
+.loc-card p{color:rgba(255,255,255,.8);font-size:.95rem}
+.loc-card .btn{margin-top:auto;align-self:flex-start;padding:.7rem 1.2rem;font-size:.82rem}
+
+/* Services */
+.services-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:48px;border-top:1px solid var(--line);border-left:1px solid var(--line)}
+.service{padding:36px 28px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:14px;transition:background .35s}
+.service:hover{background:#fff}
+.service .num{font-family:var(--serif);color:var(--gold);font-size:1.4rem;font-weight:600}
+.service h3{font-size:1.5rem}
+.service p{font-size:.92rem;color:#4a524a;flex:1}
+.service .link{font-size:.85rem;font-weight:700;color:var(--green);border-bottom:1px solid var(--gold);align-self:flex-start;padding-bottom:3px;cursor:pointer;background:none;border-top:0;border-left:0;border-right:0}
+
+/* Why / About */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:clamp(40px,7vw,96px);align-items:center}
+.why-list{list-style:none;margin-top:32px;display:grid;gap:0}
+.why-list li{padding:18px 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:36px 1fr;gap:12px;font-size:.98rem}
+.why-list li::before{content:"";width:18px;height:18px;border:1px solid var(--gold);margin-top:4px;background:linear-gradient(var(--gold),var(--gold)) center/8px 8px no-repeat}
+.about-media{aspect-ratio:4/5;overflow:hidden;background:var(--muted)}
+.about-media svg{width:100%;height:100%}
+.about .lead{margin-top:6px}
+
+/* Enquiry */
+.enquiry{background:var(--green);color:#fff}
+.enquiry h2,.enquiry h3{color:#fff}
+.enquiry .eyebrow{color:var(--gold)}
+.enquiry .eyebrow::before{background:var(--gold)}
+.enquiry .lead{color:rgba(255,255,255,.82)}
+.enq-form{background:var(--ivory);color:var(--charcoal);padding:clamp(28px,4vw,48px);display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.enq-form .full{grid-column:1/-1}
+.enq-form label{display:block;font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--green-2);margin-bottom:8px}
+.enq-form input,.enq-form select,.enq-form textarea{width:100%;padding:13px 14px;border:1px solid #cfc8b6;background:#fff;color:var(--charcoal);border-radius:2px;min-height:48px}
+.enq-form textarea{min-height:110px;resize:vertical}
+.enq-form input:focus,.enq-form select:focus,.enq-form textarea:focus{outline:none;border-color:var(--green);box-shadow:0 0 0 3px rgba(215,185,121,.35)}
+.err{color:#9b2c1d;font-size:.78rem;margin-top:6px;min-height:0;display:none}
+.err.show{display:block}
+.invalid{border-color:#9b2c1d!important}
+.enq-form .btn{width:100%}
+.enq-foot{font-size:.8rem;color:#5b635b;grid-column:1/-1}
+.enq-status{grid-column:1/-1;font-size:.9rem;display:none;padding:12px 14px;background:#fff;border-left:3px solid var(--gold)}
+.enq-status.show{display:block}
+
+/* Contact */
+.contact-list{list-style:none;margin:32px 0;display:grid;gap:18px}
+.contact-list li{display:grid;grid-template-columns:110px 1fr;gap:12px;border-bottom:1px solid var(--line);padding-bottom:16px;font-size:.98rem}
+.contact-list strong{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--green-2);padding-top:4px}
+.contact-actions{display:flex;flex-wrap:wrap;gap:12px}
+.contact-actions .btn{flex:1;min-width:150px}
+
+/* FAQ */
+.faq-wrap{max-width:820px;margin:48px auto 0}
+details{border-bottom:1px solid var(--line)}
+summary{list-style:none;cursor:pointer;padding:22px 40px 22px 0;font-family:var(--serif);font-size:1.4rem;color:var(--green);font-weight:600;position:relative}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";position:absolute;right:4px;top:14px;font-size:1.6rem;color:var(--gold);transition:transform .3s}
+details[open] summary::after{transform:rotate(45deg)}
+details p{padding:0 40px 24px 0;color:#4a524a;font-size:.95rem}
+details[open] p{animation:fade .4s ease}
+@keyframes fade{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
+
+/* Footer */
+footer{background:#0d2d25;color:rgba(255,255,255,.8);padding:80px 0 32px;font-size:.92rem}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:40px}
+footer h4{color:var(--gold);font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;margin-bottom:16px;font-weight:700}
+footer ul{list-style:none;display:grid;gap:10px}
+footer a:hover{color:var(--gold)}
+footer .brand-text{color:#fff}
+.foot-bottom{margin-top:56px;padding-top:24px;border-top:1px solid rgba(215,185,121,.2);display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px;font-size:.8rem}
+.disclaimer{margin-top:24px;font-size:.8rem;opacity:.7;max-width:760px}
+
+/* Floating WhatsApp */
+.wa-float{position:fixed;right:20px;bottom:calc(20px + env(safe-area-inset-bottom,0px));z-index:45;width:58px;height:58px;border-radius:50%;background:#25D366;display:grid;place-items:center;box-shadow:0 10px 24px -10px rgba(0,0,0,.45);transition:transform .3s}
+.wa-float:hover{transform:scale(1.06)}
+.wa-float svg{width:30px;height:30px}
+
+/* Reveal */
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .9s ease,transform .9s ease}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}}
+
+/* Responsive */
+@media (max-width:1080px){
+  .menu{display:none}
+  .burger{display:block}
+  .nav-cta .btn{display:none}
+  .filters{grid-template-columns:repeat(2,1fr)}
+  .filters .btn{grid-column:1/-1}
+  .services-grid{grid-template-columns:repeat(2,1fr)}
+  .foot-grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:860px){
+  .split{grid-template-columns:1fr}
+  .loc-grid{grid-template-columns:1fr}
+  .about-media{aspect-ratio:4/3}
+}
+@media (max-width:640px){
+  .search{margin-top:-40px;padding:22px}
+  .filters{grid-template-columns:1fr}
+  .enq-form{grid-template-columns:1fr}
+  .services-grid{grid-template-columns:1fr}
+  .grid{grid-template-columns:1fr}
+  .contact-list li{grid-template-columns:1fr;gap:4px}
+  .foot-grid{grid-template-columns:1fr}
+  .hero-ctas .btn{flex:1 1 100%}
+  .brand-text{font-size:.92rem}
+}
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<header id="top">
+  <div class="wrap nav">
+    <a href="#home" class="brand" aria-label="Apna Ghar Apni Property home">
+      <span class="mono">AG</span>
+      <span class="brand-text">APNA GHAR<small>APNI PROPERTY</small></span>
+    </a>
+    <ul class="menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#properties">Properties</a></li>
+      <li><a href="#locations">Locations</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="#properties" class="btn btn-gold">Find Your Property</a>
+      <button class="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu" id="burger"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<nav class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation">
+  <a href="#home">Home</a>
+  <a href="#properties">Properties</a>
+  <a href="#locations">Locations</a>
+  <a href="#services">Services</a>
+  <a href="#about">About Us</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<!-- Hero -->
+<section class="hero" id="home" style="padding:0">
+  <div class="hero-media" aria-hidden="true">
+    <svg viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustrative architectural view of a contemporary residential building">
+      <defs>
+        <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2f5d4f"/><stop offset="1" stop-color="#c9b98a"/></linearGradient>
+        <linearGradient id="wall" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#e9e1cf"/><stop offset="1" stop-color="#cfc3a6"/></linearGradient>
+      </defs>
+      <rect width="1600" height="1000" fill="url(#sky)"/>
+      <circle cx="1240" cy="260" r="70" fill="#f3e6c2" opacity=".7"/>
+      <rect x="0" y="820" width="1600" height="180" fill="#1d3f35"/>
+      <rect x="260" y="250" width="620" height="580" fill="url(#wall)"/>
+      <rect x="930" y="380" width="420" height="450" fill="#ddd3ba"/>
+      <g fill="#123D32" opacity=".85">
+        <rect x="300" y="300" width="110" height="130"/><rect x="450" y="300" width="110" height="130"/><rect x="600" y="300" width="110" height="130"/><rect x="750" y="300" width="110" height="130"/>
+        <rect x="300" y="480" width="110" height="130"/><rect x="450" y="480" width="110" height="130"/><rect x="600" y="480" width="110" height="130"/><rect x="750" y="480" width="110" height="130"/>
+        <rect x="960" y="420" width="90" height="120"/><rect x="1090" y="420" width="90" height="120"/><rect x="1220" y="420" width="90" height="120"/>
+      </g>
+      <rect x="440" y="680" width="260" height="150" fill="#123D32" opacity=".9"/>
+      <rect x="0" y="790" width="1600" height="30" fill="#0f3228"/>
+    </svg>
+  </div>
+  <div class="illus-label">Illustrative image, not an actual property photograph</div>
+  <div class="hero-inner">
+    <p class="tag">FIND YOUR PLACE. BUILD YOUR FUTURE.</p>
+    <h1>Find a Place You'll Be Proud to Call Home.</h1>
+    <p class="sub">Discover residential properties across Sodepur, Khardaha and Agarpara with Apna Ghar Apni Property.</p>
+    <div class="hero-ctas">
+      <a href="#properties" class="btn btn-gold">Explore Properties</a>
+      <a href="#contact" class="btn btn-line">Talk to Our Team</a>
+    </div>
+  </div>
+</section>
+
+<!-- Search and listings -->
+<section id="properties" style="padding-top:0">
+  <div class="wrap">
+    <div class="search reveal" role="search" aria-label="Property search">
+      <div class="filters">
+        <div class="field">
+          <label for="fLocation">Location</label>
+          <select id="fLocation"><option value="all">All Locations</option><option>Sodepur</option><option>Khardaha</option><option>Agarpara</option></select>
+        </div>
+        <div class="field">
+          <label for="fType">Property Type</label>
+          <select id="fType"><option value="all">All Types</option><option>Apartment</option><option>Independent House</option><option>Villa</option><option>Residential Plot</option></select>
+        </div>
+        <div class="field">
+          <label for="fBhk">Bedrooms</label>
+          <select id="fBhk"><option value="all">Any</option><option value="1">1 BHK</option><option value="2">2 BHK</option><option value="3">3 BHK</option><option value="4">4+ BHK</option></select>
+        </div>
+        <div class="field">
+          <label for="fBudget">Budget</label>
+          <select id="fBudget"><option value="all">Any Budget</option><option value="0-20">Under ₹20 lakh</option><option value="20-40">₹20–40 lakh</option><option value="40-60">₹40–60 lakh</option><option value="60-100">₹60 lakh–₹1 crore</option><option value="100-999">Above ₹1 crore</option></select>
+        </div>
+        <button class="btn btn-green" id="searchBtn">Search</button>
+      </div>
+    </div>
+
+    <div class="search-head reveal" style="margin-top:72px">
+      <div>
+        <p class="eyebrow">Property Catalogue</p>
+        <h2>Find the Property That Fits Your Life.</h2>
+        <p class="lead">Explore residential opportunities across our local property markets.</p>
+      </div>
+      <p class="count" id="count" aria-live="polite"></p>
+    </div>
+
+    <div class="grid" id="grid"></div>
+  </div>
+</section>
+
+<!-- Localities -->
+<section class="localities" id="locations">
+  <div class="wrap">
+    <p class="eyebrow reveal">Locations</p>
+    <h2 class="reveal">Find Your Home in the Right Location.</h2>
+    <p class="lead reveal">Explore residential opportunities across selected areas of North Kolkata.</p>
+    <div class="loc-grid">
+      <article class="loc-card reveal">
+        <div class="loc-art" aria-hidden="true"><svg viewBox="0 0 400 250"><rect width="400" height="250" fill="#2f5d4f"/><rect x="60" y="110" width="90" height="140" fill="#e9e1cf"/><rect x="170" y="80" width="80" height="170" fill="#ddd3ba"/><rect x="270" y="125" width="80" height="125" fill="#cfc3a6"/></svg></div>
+        <div class="inner"><h3>Sodepur</h3><p>Explore residential opportunities in and around Sodepur.</p><a class="btn btn-gold" href="#properties" data-loc="Sodepur">Explore Properties</a></div>
+      </article>
+      <article class="loc-card reveal">
+        <div class="loc-art" aria-hidden="true"><svg viewBox="0 0 400 250"><rect width="400" height="250" fill="#3a6b5c"/><rect x="40" y="130" width="100" height="120" fill="#e5dcc6"/><rect x="160" y="90" width="110" height="160" fill="#d6cbb0"/><rect x="290" y="150" width="80" height="100" fill="#c9bd9e"/></svg></div>
+        <div class="inner"><h3>Khardaha</h3><p>Discover homes and residential options in Khardaha.</p><a class="btn btn-gold" href="#properties" data-loc="Khardaha">Explore Properties</a></div>
+      </article>
+      <article class="loc-card reveal">
+        <div class="loc-art" aria-hidden="true"><svg viewBox="0 0 400 250"><rect width="400" height="250" fill="#1f4f42"/><rect x="50" y="100" width="120" height="150" fill="#ece4d0"/><rect x="200" y="140" width="150" height="110" fill="#d9ceb2"/></svg></div>
+        <div class="inner"><h3>Agarpara</h3><p>Explore properties and residential possibilities in Agarpara.</p><a class="btn btn-gold" href="#properties" data-loc="Agarpara">Explore Properties</a></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Services -->
+<section id="services">
+  <div class="wrap">
+    <p class="eyebrow reveal">Services</p>
+    <h2 class="reveal">Real Estate Support, From Search to Settlement.</h2>
+    <div class="services-grid">
+      <div class="service reveal"><span class="num">01</span><h3>Property Buying</h3><p>Looking for your next home? Explore residential property options and get assistance throughout your property search.</p><button class="link" data-goto="#properties">Find a Property</button></div>
+      <div class="service reveal"><span class="num">02</span><h3>Property Selling</h3><p>Planning to sell your property? Connect with our team to discuss your property and selling requirements.</p><a class="link" href="#enquiry" data-type="Selling">Discuss Selling</a></div>
+      <div class="service reveal"><span class="num">03</span><h3>Home Loan Assistance</h3><p>Need help understanding home-loan options? Contact our team for assistance and information.</p><a class="link" href="#enquiry" data-type="Home loan">Enquire Now</a></div>
+      <div class="service reveal"><span class="num">04</span><h3>Interior Design</h3><p>Planning your interiors? Explore interior-design assistance for your residential space.</p><a class="link" href="#enquiry" data-type="Interior design">Discuss Your Project</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- Why + About -->
+<section id="about" style="background:var(--muted)">
+  <div class="wrap split">
+    <div class="reveal">
+      <p class="eyebrow">Why Choose Us</p>
+      <h2>A More Personal Approach to Finding Your Home.</h2>
+      <ul class="why-list">
+        <li>Local property assistance across Sodepur, Khardaha and Agarpara.</li>
+        <li>Support for both buying and selling.</li>
+        <li>Multiple residential property categories.</li>
+        <li>Assistance with property enquiries.</li>
+        <li>Home-loan assistance and interior-design services.</li>
+      </ul>
+    </div>
+    <div class="reveal about">
+      <div class="about-media" role="img" aria-label="Illustrative architectural image of a residential building"><svg viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice"><rect width="400" height="500" fill="#dcd3bd"/><rect x="0" y="380" width="400" height="120" fill="#123D32" opacity=".9"/><rect x="70" y="120" width="260" height="280" fill="#f0e9d8"/><g fill="#123D32" opacity=".8"><rect x="100" y="150" width="60" height="80"/><rect x="240" y="150" width="60" height="80"/><rect x="100" y="260" width="60" height="80"/><rect x="240" y="260" width="60" height="80"/></g><rect x="170" y="320" width="60" height="80" fill="#123D32"/></svg></div>
+      <p class="eyebrow" style="margin-top:32px">About the Business</p>
+      <h2 style="font-size:clamp(2rem,4vw,2.8rem)">Your Property Journey Starts Here.</h2>
+      <p class="lead">Apna Ghar Apni Property provides property-related assistance across Sodepur, Khardaha and Agarpara. Whether you are exploring a home to buy, considering selling a property or looking for assistance with related services, connect with our team to discuss your requirements.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Enquiry -->
+<section class="enquiry" id="enquiry">
+  <div class="wrap split" style="align-items:start">
+    <div class="reveal">
+      <p class="eyebrow">Enquiry</p>
+      <h2>Let's Find the Right Property for You.</h2>
+      <p class="lead">Share your requirements and our team can discuss suitable property options with you.</p>
+      <p class="lead" style="margin-top:20px;font-size:.92rem">Submitting opens WhatsApp with your details pre-filled. You still need to tap Send in WhatsApp to deliver your enquiry.</p>
+    </div>
+    <form class="enq-form reveal" id="enqForm" novalidate>
+      <div>
+        <label for="name">Full name *</label>
+        <input id="name" name="name" autocomplete="name" required>
+        <div class="err" id="nameErr">Please enter your name.</div>
+      </div>
+      <div>
+        <label for="phone">Phone number *</label>
+        <input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="10-digit mobile number" required>
+        <div class="err" id="phoneErr">Enter a valid 10-digit Indian mobile number.</div>
+      </div>
+      <div class="full">
+        <label for="email">Email address (optional)</label>
+        <input id="email" name="email" type="email" autocomplete="email">
+        <div class="err" id="emailErr">Enter a valid email address.</div>
+      </div>
+      <div>
+        <label for="eLoc">Preferred location</label>
+        <select id="eLoc" name="location"><option>Sodepur</option><option>Khardaha</option><option>Agarpara</option><option>Any</option></select>
+      </div>
+      <div>
+        <label for="eType">Property type</label>
+        <select id="eType" name="type"><option>Apartment</option><option>Independent House</option><option>Villa</option><option>Residential Plot</option><option>Not sure</option></select>
+      </div>
+      <div>
+        <label for="eBudget">Budget</label>
+        <select id="eBudget" name="budget"><option>Under ₹20 lakh</option><option>₹20–40 lakh</option><option>₹40–60 lakh</option><option>₹60 lakh–₹1 crore</option><option>Above ₹1 crore</option><option>Not decided</option></select>
+      </div>
+      <div>
+        <label for="eBhk">BHK requirement</label>
+        <select id="eBhk" name="bhk"><option>1 BHK</option><option>2 BHK</option><option>3 BHK</option><option>4+ BHK</option><option>Not applicable</option></select>
+      </div>
+      <div class="full">
+        <label for="msg">Additional message</label>
+        <textarea id="msg" name="message" placeholder="Anything else we should know?"></textarea>
+      </div>
+      <div class="enq-status" id="enqStatus" role="status"></div>
+      <div class="full"><button type="submit" class="btn btn-gold">Send My Enquiry</button></div>
+      <p class="enq-foot">Your details are used only to prepare this WhatsApp message. Nothing is stored on this website.</p>
+    </form>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+  <div class="wrap split">
+    <div class="reveal">
+      <p class="eyebrow">Contact</p>
+      <h2>Let's Talk About Your Next Property.</h2>
+      <ul class="contact-list">
+        <li><strong>Business</strong><span>Apna Ghar Apni Property</span></li>
+        <li><strong>Phone</strong><span>+91 6289996980</span></li>
+        <li><strong>WhatsApp</strong><span>+91 6289996980</span></li>
+        <li><strong>Email</strong><span>work.agap@gmail.com</span></li>
+        <li><strong>Areas</strong><span>Sodepur, Khardaha and Agarpara</span></li>
+      </ul>
+      <div class="contact-actions">
+        <a class="btn btn-green" href="tel:+916289996980">Call Now</a>
+        <a class="btn btn-ghost" href="https://wa.me/916289996980?text=Hello%20Apna%20Ghar%20Apni%20Property%2C%20I%20visited%20your%20website%20and%20would%20like%20to%20know%20more%20about%20your%20property%20services." target="_blank" rel="noopener">WhatsApp Us</a>
+        <a class="btn btn-ghost" href="mailto:work.agap@gmail.com">Send Email</a>
+      </div>
+    </div>
+    <div class="reveal">
+      <p class="eyebrow">Frequently Asked</p>
+      <div class="faq-wrap" style="margin:20px 0 0;max-width:none">
+        <details><summary>Which locations do you serve?</summary><p>We assist with residential property in Sodepur, Khardaha and Agarpara.</p></details>
+        <details><summary>Can I enquire about residential properties?</summary><p>Yes. Use the enquiry form or WhatsApp us with your requirements.</p></details>
+        <details><summary>Do you assist with property selling?</summary><p>Yes. Contact our team to discuss your property and selling requirements.</p></details>
+        <details><summary>Can I contact you through WhatsApp?</summary><p>Yes, on +91 6289996980. Tap the WhatsApp button on this page to start.</p></details>
+        <details><summary>Do you provide home-loan assistance?</summary><p>We help you understand home-loan options and connect you with information. We cannot guarantee loan approval or interest rates.</p></details>
+        <details><summary>Do you provide interior-design services?</summary><p>Yes. Discuss your interior project with our team.</p></details><details><summary>Are site visits charged?</summary><p>Site visiting charges apply, subject to the business's terms and conditions. Please ask our team for details before booking a visit.</p></details>
+        <details><summary>How can I confirm whether a property is available?</summary><p>Availability and prices change, so please contact our team on WhatsApp or by phone for the latest confirmation.</p></details>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="brand" style="margin-bottom:18px"><span class="mono">AG</span><span class="brand-text">APNA GHAR<small>APNI PROPERTY</small></span></div>
+        <p style="font-family:var(--serif);font-size:1.2rem;color:#fff">Find Your Place. Build Your Future.</p>
+      </div>
+      <div>
+        <h4>Navigate</h4>
+        <ul><li><a href="#home">Home</a></li><li><a href="#properties">Properties</a></li><li><a href="#locations">Locations</a></li><li><a href="#services">Services</a></li><li><a href="#about">About</a></li><li><a href="#contact">Contact</a></li></ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul><li><a href="tel:+916289996980">+91 6289996980</a></li><li><a href="mailto:work.agap@gmail.com">work.agap@gmail.com</a></li><li>Sodepur, Khardaha and Agarpara</li></ul>
+      </div>
+      <div>
+        <h4>Online</h4>
+        <ul><li><a href="https://www.youtube.com/channel/UCMeAVt6lSYLRpqN0VKOh0sA" target="_blank" rel="noopener">YouTube</a></li><li><a href="https://linktr.ee/apnagharapniproperty" target="_blank" rel="noopener">Linktree</a></li><li><a href="https://www.instagram.com/apnagharapnipropertyy" target="_blank" rel="noopener">Instagram</a></li><li><a href="https://www.facebook.com/share/1AtTM9bTR3/" target="_blank" rel="noopener">Facebook</a></li><li><a href="https://whatsapp.com/channel/0029Vb65qGM1CYoVAAOl0N3J" target="_blank" rel="noopener">WhatsApp Hot Listings</a></li></ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span id="year"></span> Apna Ghar Apni Property. All rights reserved.</span>
+    </div>
+    <p class="disclaimer">Property prices, specifications and availability are subject to confirmation by the business. Please verify all details before making a purchase decision.</p>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/916289996980?text=Hello%20Apna%20Ghar%20Apni%20Property%2C%20I%20visited%20your%20website%20and%20would%20like%20to%20know%20more%20about%20your%20property%20services." target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp">
+  <svg viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.3-.7-1.5-.7s-.4-.1-.5.1-.6.7-.7.9-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.8-1.4.1-.2 0-.3 0-.4l-.7-1.6c-.2-.4-.4-.4-.5-.4h-.5a1 1 0 0 0-.7.3 2.9 2.9 0 0 0-.9 2.2 5 5 0 0 0 1 2.7 11.5 11.5 0 0 0 4.4 3.9c2.1.9 2.5.7 3 .7a2.6 2.6 0 0 0 1.7-1.2 2.1 2.1 0 0 0 .1-1.2c0-.1-.2-.2-.5-.3z"/></svg>
+</a>
+
+<script>
+(function(){
+  const WA = "https://wa.me/916289996980";
+  const $ = (s, c=document) => c.querySelector(s);
+  const $$ = (s, c=document) => Array.from(c.querySelectorAll(s));
+
+  // Header solid on scroll
+  const header = $("header");
+  const onScroll = () => header.classList.toggle("solid", window.scrollY > 40);
+  window.addEventListener("scroll", onScroll, {passive:true}); onScroll();
+
+  // Mobile menu
+  const burger = $("#burger"), mm = $("#mobileMenu");
+  const setMenu = open => { mm.classList.toggle("open", open); burger.setAttribute("aria-expanded", open); burger.setAttribute("aria-label", open ? "Close menu" : "Open menu"); document.body.style.overflow = open ? "hidden" : ""; };
+  burger.addEventListener("click", () => setMenu(!mm.classList.contains("open")));
+  $$("#mobileMenu a").forEach(a => a.addEventListener("click", () => setMenu(false)));
+  document.addEventListener("keydown", e => { if (e.key === "Escape") setMenu(false); });
+
+  $("#year").textContent = new Date().getFullYear();
+
+  // Reveal on scroll
+  const io = new IntersectionObserver(entries => entries.forEach(en => { if (en.isIntersecting) { en.target.classList.add("in"); io.unobserve(en.target); } }), {threshold:.12});
+  $$(".reveal").forEach(el => io.observe(el));
+
+  // Listings data: only verified or owner-supplied items. Historical items are flagged.
+  const listings = [
+    {
+      id: "sodepur-house-hb-town",
+      title: "Independent House with Garage, near HB Town",
+      location: "Sodepur",
+      type: "Independent House",
+      bhk: null,
+      budgetLakh: null,
+      priceText: "Contact for details",
+      lastPublished: "₹1.15 crore (published Feb 2025)",
+      features: ["Two-storey", "Multiple bedrooms", "Kitchens", "Balconies", "Two covered garages"],
+      landArea: "3 kattha 14 chhatak",
+      historical: true,
+      source: "https://www.youtube.com/watch?v=EbAJ_-33B9I"
+    }
+  ];
+
+  const budgetRange = {"0-20":[0,20],"20-40":[20,40],"40-60":[40,60],"60-100":[60,100],"100-999":[100,99999]};
+
+  function matches(l){
+    const loc = $("#fLocation").value, type = $("#fType").value, bhk = $("#fBhk").value, bud = $("#fBudget").value;
+    if (loc !== "all" && l.location !== loc) return false;
+    if (type !== "all" && l.type !== type) return false;
+    if (bhk !== "all" && (l.bhk === null || String(l.bhk) !== bhk && !(bhk === "4" && l.bhk >= 4))) return false;
+    if (bud !== "all") {
+      if (l.budgetLakh === null) return false;
+      const [min,max] = budgetRange[bud];
+      if (l.budgetLakh < min || l.budgetLakh > max) return false;
+    }
+    return true;
+  }
+
+  function waLink(text){ return WA + "?text=" + encodeURIComponent(text); }
+
+  function card(l){
+    const badge = l.historical ? `<span class="badge gold">Historical listing</span>` : `<span class="badge">Residential</span>`;
+    const specs = [
+      l.type,
+      l.bhk ? `${l.bhk} BHK` : "Bedrooms: confirm",
+      l.landArea ? `Land: ${l.landArea}` : ""
+    ].filter(Boolean).map(s => `<span>${s}</span>`).join("");
+    const notice = l.historical ? `<p class="note">Historical listing. Availability and price require confirmation. The price shown is from the original video and is not a current asking price.</p>` : "";
+    return `
+      <article class="card reveal in">
+        <div class="card-media" role="img" aria-label="Illustrative image. Not an actual photograph of this property.">
+          <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice"><rect width="400" height="300" fill="#dcd3bd"/><rect y="230" width="400" height="70" fill="#123D32" opacity=".9"/><rect x="110" y="90" width="180" height="150" fill="#f0e9d8"/><g fill="#123D32" opacity=".8"><rect x="130" y="110" width="40" height="50"/><rect x="230" y="110" width="40" height="50"/><rect x="130" y="180" width="40" height="50"/><rect x="230" y="180" width="40" height="50"/></g></svg>
+          ${badge}
+        </div>
+        <div class="card-body">
+          <span class="card-type">${l.type}</span>
+          <h3>${l.title}</h3>
+          <p class="loc">${l.location}, West Bengal</p>
+          <div class="price">${l.priceText}<small>${l.historical ? "Last published: " + l.lastPublished : "Price on request"}</small></div>
+          <div class="specs">${specs}</div>
+          <p style="font-size:.9rem;color:#4a524a">${l.features.join(" · ")}.</p>
+          ${notice}
+          <p class="card-type" style="color:#7a7a6e;font-size:.66rem">Photo: illustrative. Original video is the source.</p>
+          <div class="card-actions">
+            <a class="btn btn-ghost" href="${l.source || '#enquiry'}" ${l.source ? 'target="_blank" rel="noopener"' : ''}>${l.source ? "View Source" : "View Details"}</a>
+            <a class="btn btn-green" href="${waLink(`Hello, I am interested in the ${l.title} listed on your website. Please share more details and current availability.`)}" target="_blank" rel="noopener">Enquire on WhatsApp</a>
+          </div>
+        </div>
+      </article>`;
+  }
+
+  function render(){
+    const results = listings.filter(matches);
+    $("#grid").innerHTML = results.length
+      ? results.map(card).join("")
+      : `<div class="empty"><h3>No properties match your selected filters.</h3><p>Try adjusting your search, or <a href="#enquiry" style="color:var(--green);border-bottom:1px solid var(--gold)">tell us what you are looking for</a> and we will discuss suitable options with you.</p></div>`;
+    $("#count").textContent = `${results.length} ${results.length === 1 ? "property" : "properties"} shown`;
+  }
+
+  $("#searchBtn").addEventListener("click", () => { render(); $("#properties").scrollIntoView({behavior:"smooth"}); });
+  ["fLocation","fType","fBhk","fBudget"].forEach(id => $("#"+id).addEventListener("change", render));
+  render();
+
+  // Locality cards and service links set filters
+  $$("[data-loc]").forEach(a => a.addEventListener("click", () => { $("#fLocation").value = a.dataset.loc; render(); }));
+  $$("[data-goto]").forEach(b => b.addEventListener("click", () => document.querySelector(b.dataset.goto).scrollIntoView({behavior:"smooth"})));
+  $$("[data-type]").forEach(a => a.addEventListener("click", () => { $("#msg").value = `Interested in: ${a.dataset.type}. `; }));
+
+  // Enquiry validation
+  const form = $("#enqForm"), status = $("#enqStatus");
+  const fields = {
+    name: v => v.trim().length >= 2 ? "" : "Please enter your name.",
+    phone: v => /^[6-9]\d{9}$/.test(v.replace(/[\s-]/g,"").replace(/^\+?91/,"")) ? "" : "Enter a valid 10-digit Indian mobile number.",
+    email: v => !v.trim() || /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.trim()) ? "" : "Enter a valid email address."
+  };
+  function validate(name){
+    const el = $("#"+name), msg = fields[name](el.value);
+    $("#"+name+"Err").classList.toggle("show", !!msg);
+    el.classList.toggle("invalid", !!msg);
+    return !msg;
+  }
+  ["name","phone","email"].forEach(n => $("#"+n).addEventListener("blur", () => validate(n)));
+
+  form.addEventListener("submit", e => {
+    e.preventDefault();
+    const ok = ["name","phone","email"].map(validate).every(Boolean);
+    if (!ok) { status.className = "enq-status show"; status.textContent = "Please correct the highlighted fields."; return; }
+    const v = Object.fromEntries(new FormData(form).entries());
+    const text = [
+      "Hello Apna Ghar Apni Property, I would like to enquire about residential property.",
+      "",
+      `Name: ${v.name.trim()}`,
+      `Phone: ${v.phone.trim()}`,
+      v.email ? `Email: ${v.email.trim()}` : null,
+      `Preferred location: ${v.location}`,
+      `Property type: ${v.type}`,
+      `Budget: ${v.budget}`,
+      `BHK requirement: ${v.bhk}`,
+      v.message.trim() ? `Message: ${v.message.trim()}` : null
+    ].filter(x => x !== null).join("\n");
+    window.open(waLink(text), "_blank", "noopener");
+    status.className = "enq-status show";
+    status.textContent = "WhatsApp has opened with your enquiry pre-filled. Please tap Send in WhatsApp to deliver it.";
+  });
+})();
+</script>
+</body>
+</html>
